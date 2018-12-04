@@ -49,18 +49,19 @@ properties/PV_ActivePower
 ## PUT GORENJE refrigerator property
 ### Endpoint:
             PUT : /remote/objects/{oid}/properties/{pid}
-For PUT method request the following JSON is needed:
-{
-"fastfreeze": "ON"
+For PUT method request the following JSON is needed:  
+{  
+    "fastfreeze": "ON"  
 }
+
 
 ## POST GORENJE oven baking parameters
 ### Endpoint:
             POST : /remote/objects/{oid}/actions/{aid}
-For PUT method request the following JSON is needed:
+For PUT method request the following JSON is needed:  
 {  
-    "duration": 20,  
-"temperature": 150,
-"heater_system": "hotair"
+    "duration": "20",  
+"temperature": "2018-11-10 11:30:29",
+    "heater_system": "hotair"    
 }
 
