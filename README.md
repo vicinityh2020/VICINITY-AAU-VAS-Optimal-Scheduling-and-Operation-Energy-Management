@@ -62,6 +62,6 @@ For PUT method request the following JSON is needed:
 {  
 "duration": "20",  
     "temperature": "150",  
-"heater_system": "hotair"
+    "heater_system": "hotair"  
 }
 
