@@ -25,24 +25,27 @@ The VAS makes action requests to its agent to start oven baking function and sta
             GET : /remote/objects/{oid}/properties/{pid}
 ### Return:
 After executing GET method, a response can be received, for instance:  
-properties/Load_ActivePower
+properties/Load_ActivePower:  
 {  
-    "value": "5",  
+    "value": "1",  
     "time": "2018-11-10 11:30:29"  
 }
-properties/WT_ActivePower
+
+properties/WT_ActivePower:  
 {  
     "value": "2",  
     "time": "2018-11-10 11:30:29"  
 }
-properties/BMS_SoC
+
+properties/BMS_SoC:  
 {  
     "value": "60%",  
     "time": "2018-11-10 11:30:29"  
 }
-properties/PV_ActivePower
+
+properties/PV_ActivePower:  
 {  
-    "value": "1",  
+    "value": "3",  
     "time": "2018-11-10 11:30:29"  
 }
 
